@@ -96,9 +96,9 @@ Navigate to https://localhost:8000 and select 'Login'
 
 - [@Mukul Kumar](http://github.com/mkk96)
 - [@Aditya Prakash Gonnade](https://github.com/Adigoo)
-- [@Bairi Anjaneyulu](http://github.com/mkk96)
-- [@Husen Kagdi](http://github.com/mkk96)
-- [@Pulkit Gupta](http://github.com/mkk96)
+- [@Bairi Anjaneyulu](https://github.com/AnjaneyuluBairi)
+- [@Husen Kagdi](https://github.com/HRKagdi)
+- [@Pulkit Gupta](https://github.com/Pulkit112)
 
 
 
