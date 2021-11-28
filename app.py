@@ -50,7 +50,7 @@ class PDF(FPDF):
 pdf = FPDF()
 pdf.add_page()
 pdf.set_line_width(0.5)
-phases = ["Empathize", "Design", "Ideate", "Prototype", "Test"]
+phases = ["Empathize", "Define", "Ideate", "Prototype", "Test"]
 
 @app.route("/")
 def hello():
@@ -320,14 +320,14 @@ def submit():
     pdf.set_font("Arial", size=20)
     pdf.cell(200, 10, txt=phases[1], ln=1, align='L')
     pdf.set_font("Arial", size=15)
-    for i in range(0, len(ideate)):
-        pdf.multi_cell(200, 10, txt=ideate[i], align='L')
+    for i in range(0, len(define)):
+        pdf.multi_cell(200, 10, txt=define[i], align='L')
 
     pdf.set_font("Arial", size=20)
     pdf.cell(200, 10, txt=phases[2], ln=1, align='L')
     pdf.set_font("Arial", size=15)
-    for i in range(0, len(define)):
-        pdf.multi_cell(200, 10, txt=define[i], align='L')
+    for i in range(0, len(ideate)):
+        pdf.multi_cell(200, 10, txt=ideate[i], align='L')
 
     img_index=0
     pdf.cell(200,10,txt="Uploaded Images",ln=1,align='L')
@@ -356,12 +356,12 @@ def submit():
     List = {
         "data": List
     }
-    return render_template('login.html', result=List)
+    path = "report.pdf"
+    return send_file(path, as_attachment=True)
 
 @app.route("/download", methods=['GET', 'POST'])
 def download():
-  path = "report.pdf"
-  return send_file(path, as_attachment=True)
+  return render_template('login.html')
 
 api.add_resource(add, '/add')
 api.add_resource(delete, '/delete')
