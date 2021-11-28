@@ -91,7 +91,6 @@ Navigate to https://localhost:8000 and select 'Login'
 
 [Artical 3](https://medium.com/windmill-smart-solutions/design-thinking-workshop-step-by-step-guide-428171c2adee)
 
-[Artical 3](https://miro.com/blog/how-to-run-a-virtual-design-thinking-workshop)
 
 ## Authors
 
