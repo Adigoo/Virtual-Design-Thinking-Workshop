@@ -109,5 +109,5 @@ Navigate to https://localhost:8000 and select 'Login'
 
 ## Feedback
 
-If you have any feedback, please reach out to us at mukul.kumar@students.iiit.ac.in
+If you have any feedback, please reach out to us at mukul.kumar@students.iiit.ac.in, aditya.gonnade@students.iiit.ac.in
 
